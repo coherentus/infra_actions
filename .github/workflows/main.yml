@@ -49,4 +49,4 @@ jobs:
         uses: docker/build-push-action@v2 # Выполняет push образа в DockerHub 
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/https://hub.docker.com/repository/docker/coherentus/infra_sp2:latest 
+          tags: ${{ secrets.DOCKER_USERNAME }}/coherentus/infra_sp2:latest 
